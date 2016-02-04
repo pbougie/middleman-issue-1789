@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/middleman/middleman-sprockets.git
+  revision: 5e21869944fbd4265e6fb69386c68cc662f2e28f
+  specs:
+    middleman-sprockets (4.0.0.rc.1)
+      middleman-core (>= 4.0.0.rc.1)
+      sprockets (~> 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,9 +79,6 @@ GEM
       sass (>= 3.4)
       tilt (~> 1.4.1)
       uglifier (~> 2.6)
-    middleman-sprockets (4.0.0.rc.1)
-      middleman-core (>= 4.0.0.rc.1)
-      sprockets (~> 3.0)
     mime-types (3.0)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2015.1120)
@@ -113,7 +118,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 4)
-  middleman-sprockets (~> 4.rc)
+  middleman-sprockets!
 
 BUNDLED WITH
    1.11.2

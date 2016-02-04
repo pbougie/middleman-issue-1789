@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 gem 'middleman', '~> 4'
-gem 'middleman-sprockets', '~> 4.rc'
+gem 'middleman-sprockets', github: 'middleman/middleman-sprockets'
